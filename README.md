@@ -16,22 +16,14 @@
 
 ***
 
-## 1. Consideraciones generales
+## 1. Diseño del Prototipo
 
-* Este proyecto lo resolvemos de manera **individual**.
-* El rango de tiempo estimado para completar el proyecto es de 1 a 3 Sprints.
-* Enfócate en aprender y no solamente en "completar" el proyecto.
-* Te sugerimos que no intentes saberlo todo antes de empezar a codear.
-  No te preocupes demasiado ahora por lo que _todavía_ no entiendas.
-  Irás aprendiendo.
-
+ El desarrollo de un prototipo es un paso esencial en el proceso de diseño y desarrollo de una pagina we. A través de la creación de un prototipo, podemos visualizar y probar conceptos de manera tangible, lo que nos permite identificar posibles mejoras, desafíos técnicos y oportunidades de innovación. Es un recordatorio constante de que el diseño y la funcionalidad van de la mano, y nos ayuda a tomar decisiones más informadas a medida que avanzamos hacia la creación de un producto final exitoso."
 ## 2. Preámbulo
 
-![Una lupa sobre texto de libro](https://github.com/Laboratoria/curriculum/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113)
+![prototipo](https://github.com/Daniipuff/DEV012-text-analyzer/blob/main/Frame%201.png)
 
-_Credito: Foto de [ethan](https://unsplash.com/fr/@andallthings?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
-_en [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
-
+## 3. Preámbulo
 Un analizador de texto es una aplicación para extraer información útil de un
 texto utilizando diversas técnicas, como el procesamiento del lenguaje
 natural (NLP), el aprendizaje automático (ML) y el análisis estadístico.

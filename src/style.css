@@ -1,168 +1,105 @@
-* {
-    margin: 0;
-    padding: 5px;
-    box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
-}
-
-p {
-    font-family: cursive;
-    font-size: 20px;
-}
-
 body {
-
     font-family: cursive;
+    background-color: rgb(252, 214, 255);
+    text-align: center;
 }
-
 header {
-    color: #fff;
-    /* Cambia el color del texto */
-    padding: 20px;
-    /* Añade espacio alrededor del contenido */
-    text-align: center;
-    /* Centra el texto dentro del <header> */
-}
-
-h1 {
-
+    background-color: rgb(252, 214, 255);
+    font-size: medium;
     font-family: cursive;
-    font-size: 24px;
-    /* Tamaño de la fuente */
-    color: #470149;
-    /* Color del texto */
-    font-weight: bold;
-    /* Peso de la fuente (negrita) */
-    margin-top: 10px;
-    /* Margen superior */
-    margin-bottom: 10px;
-}
-
-/*.contenedor1,
-.contenedor2 {
-    line-height: 1.5;
-    width: 100%;
-    border-radius: 20px;
-    resize: none;
-    padding: 1.5rem;
-    font-size: 1rem;
-    border: none;
-    outline: 0;
-    font-weight: 400;
-    background: rgb(255, 190, 245);
-    color: rgb(0, 0, 0);
-}*/
-footer {
-    background-color: rgb(255, 190, 245);
-    /* Cambia el color de fondo */
-    color: #680d58;
-    /* Cambia el color del texto */
-    padding: 10px;
-    /* Añade espacio alrededor del contenido */
     text-align: center;
-    /* Centra el texto dentro del <footer> */
+    color: #000000;
+    padding: 20px;
 }
-
-ul li {
-    list-style: none;
-    margin: 5px 0;
-    padding: 10px;
-    border: 1px solid #db87df;
+h1 {
+    margin: 0px 0px 0px 0px;
+    padding-top: 0px;
+    padding-bottom: 20px;
 }
-
-ul li[data-testid="word-count"] {
-    background-color: #1d8beb;
-}
-
-ul li[data-testid="character-count"] {
-    background-color: #2eb00e;
-}
-
-ul li[data-testid="character-no-spaces-count"] {
-    background-color: #ced419;
-}
-
-
-ul li[data-testid="number-count"] {
-    background-color: #ef7137;
-}
-
-
-ul li[data-testid="number-sum"] {
-    background-color: #ff5353;
-}
-
-ul li[data-testid="word-length-average"] {
-    background-color: #8b0d85;
-}
-
-
-textarea[name="user-input"] {
-    width: 100%;
-    height: 150px;
-    padding: 10px;
-    border: 1px solid #ed8cd2;
-}
-
 textarea {
     width: 100%;
-    /* Ancho del textarea al 100% del contenedor */
-    height: 200px;
-    /* Altura fija del textarea (ajusta según tus necesidades) */
-    padding: 10px;
-    /* Espacio de relleno dentro del textarea */
-    border: 1px solid #5b145c;
-    /* Borde del textarea */
-    background-color: #ffffff;
-    /* Color de fondo del textarea */
-    color: #000000;
-    /* Color del texto dentro del textarea */
+    height: 110px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
     font-size: 16px;
-    /* Tamaño de fuente del texto */
+    box-shadow: #3b003e;
+    border-radius: 10px;
+}
+ul {
+    text-align: center;
+    width: 60%;
+    margin-left: 18%;
+}
+div[name="cajalista"] {
+    background-color: rgb(252, 214, 255);
+    ;
 }
 
-#reset-button {
-    background-color: red;
-    /* Cambia el color de fondo */
-
-
-    color: white;
-    /* Cambia el color del texto */
-
-
-    border: none;
-    /* Elimina el borde */
-    padding: 10px 20px;
-    /* Espacio interno */
-
-
-    cursor: pointer;
-    /* Cambia el cursor al puntero al pasar el ratón */
-}
 .metric {
-    padding: 10px;
-    /* Agrega un espacio de 10 píxeles alrededor del contenido del elemento */
-    border: 1px solid #000000;
-    /* Agrega un borde de 1 píxel sólido con color gris claro */
-    margin-bottom: 5px;
-    /* Agrega espacio de 5 píxeles en la parte inferior de cada elemento de la lista */
-    background-color: #f0f0f0;
-    /* Establece un fondo gris claro */
-    color: rgb(73, 11, 78);
-    font-weight: bold;
+    display: inline-block;
+    background-color: rgb(252, 214, 255);
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-right: 15px;
+    position: relative;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+li.metric[data-testid="word-count"] {
+    background-color: #88c7fe;
+}
+li.metric[data-testid="character-count"] {
+    background-color: #7fdb73;
+}
+li.metric[data-testid="character-no-spaces-count"] {
+    background-color: #e7fa88;
+}
+li.metric[data-testid="number-count"] {
+    background-color: #ffbb78;
+}
+li.metric[data-testid="number-sum"] {
+    background-color: #ff8bd2;
+}
+li.metric[data-testid="word-length-average"] {
+    background-color: #c67cd6;
+}
+textarea[name="user-input"] {
+    margin-top: 20px;
+    width: 50%;
+    height: 200px;
+}
+#reset-button {
+    background-color: rgb(62, 0, 107);
+    color: white;
+    /* Cambia el color del texto a blanco */
+    border: none;
+    /* Quita el borde predeterminado */
+    border-radius: 5px;
+    /* Añade esquinas redondeadas */
+    padding: 5px 10px;
+    /* Añade espacio alrededor del texto */
+    font-size: 16px;
+    /* Cambia el tamaño del texto */
+    cursor: pointer;
+    /* Cambia el cursor al pasar el ratón sobre el botón */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    /* Añade una sombra */
+}
+footer {
+
+    /* Cambia el color de fondo a un tono de morado */
+    color: #a2007d;
+    /* Cambia el color del texto a blanco */
+    padding: 5px;
+    /* Aumenta el espacio alrededor del contenido para mayor comodidad */
+    text-align: center;
+    /* Centra el texto dentro del <footer> */
+    font-size: 25px;
+    /* Ajusta el tamaño de fuente para mejorar la legibilidad */
+    /* Agrega una línea superior con un tono de rosa claro */
 }
 
-li {
-    width: 100%;
-    /* Ancho del contenido + relleno + borde */
-    height: 90x;
-    /* Altura del contenido + relleno + borde */
-    padding: 2cm;
-    /* Espacio entre el contenido y el borde */
-    border: 2px solid #000000;
-    /* Borde de 2 píxeles sólido en color gris oscuro */
-    margin: 2cm;
-    /* Espacio externo entre elementos */
-    background-color: #ffffff;
-    /* Color de fondo de la caja */
+/* Cambia el color del texto al pasar el cursor */
+footer:hover {
+    color: #4e0068;
 }

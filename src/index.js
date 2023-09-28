@@ -24,7 +24,7 @@ textarea.addEventListener('input', function () {
   // Se usa el método getWordCount del objeto analyzer para calcular el recuento de palabras
   const wordCount = analyzer.getWordCount(texto);
   // verifica el elemento <li> con el recuento de palabras
-  wordCountElement.textContent = `Recuento de Palabras: ${wordCount}`;
+  wordCountElement.textContent = `Recuento de Palabras ${wordCount}`;
 });
 textarea.addEventListener('input', function () {
   const texto = textarea.value;
